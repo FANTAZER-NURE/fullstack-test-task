@@ -1,0 +1,11 @@
+.container {
+  padding: 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 24px;
+}

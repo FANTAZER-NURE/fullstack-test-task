@@ -1,0 +1,84 @@
+.card {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 12px;
+}
+
+.colPoster {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.posterLarge {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.posterPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.colDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sep {
+  margin: 4px 0 8px 0;
+}
+
+.metaRows {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  row-gap: 6px;
+}
+
+.metaRow {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  column-gap: 6px;
+}

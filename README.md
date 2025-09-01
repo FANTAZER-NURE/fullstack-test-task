@@ -1,12 +1,8 @@
 # Fullstack Movies App (Monorepo)
+# Render links
 
-- Monorepo using npm workspaces: `frontend/` and `backend/`.
-- See `docs/idea.md` and `docs/vision.md` for scope and architecture.
+DB connection string: `postgresql://movies_db_zymw_user:lp0UtXGKlDfj0qTL8KKmn4xX9lTcsdrr@dpg-d2slm2f5r7bs73ajvni0-a/movies_db_zymw`
 
-## Scripts
+Backend link: `https://fullstack-test-task-ozjw.onrender.com/`
 
-- `npm run dev` – runs backend in dev (see backend package).
-- `npm run build` – builds backend then frontend.
-- `npm start` – starts backend (built output).
-
-Deploy each app from its subdirectory (Render/Netlify supported).
+Frontend link: `https://fullstack-test-task-fe.onrender.com/`

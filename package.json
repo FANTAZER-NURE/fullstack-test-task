@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-test-task",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm -w backend run build && npm -w frontend run build",
+    "dev": "npm -w backend run dev",
+    "start": "npm -w backend run start",
+    "lint": "eslint . --ext .ts,.tsx,.js",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "eslint-plugin-unused-imports": "^4.2.0"
+  }
+}

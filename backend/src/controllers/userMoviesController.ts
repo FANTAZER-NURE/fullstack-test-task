@@ -85,7 +85,6 @@ export async function listUserMovies(
     const sql = `
       SELECT
         id,
-        movie_id AS "movieId",
         title,
         year,
         runtime,
